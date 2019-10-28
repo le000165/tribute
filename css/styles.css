@@ -1,0 +1,114 @@
+/* reset default value */
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  color: #1d1919;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif; 
+  background-color: #1d1919;
+}
+
+.container {
+    position: absolute;
+  text-align: center;
+  padding: 0 150px;
+  background-color: #e7eaf6;
+  padding-bottom: 5%;
+}
+
+/* Heading */
+h1 {
+  padding-bottom: 30px;
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 3rem;
+}
+
+header {
+  display: inline-block;
+  padding-top: 150px;
+}
+
+.heading {
+  position: relative;
+  bottom: 70px;
+}
+
+.heading-sub {
+  padding: 0;
+  position: relative;
+  bottom: 40px;
+}
+
+/* Images */
+#image {
+  width: 50%;
+  height: auto;
+}
+
+#img-div {
+  display: inline-block;
+  padding-bottom: 70px;
+}
+
+.figure-caption {
+  position: relative;
+  top: 20px;
+  
+}
+
+.figure-written {
+    font-family: "Gloria Hallelujah", sans-serif;
+    display: block;
+position: relative;
+    top: 40px;
+    font-size: 1.5rem;
+}
+
+
+/* Contents */
+.container-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-content h2 {
+  position: relative;
+  bottom: 30px;
+}
+
+.container-content p {
+  position: relative;
+  top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1cb3c8;
+}
+
+ul li {
+  text-align: justify;
+  line-height: 2em;
+}
+
+a:hover {
+    color: #f77754;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+position: relative;
+top: 30px;   
+}
+
+hr {
+    border: 10px dotted #ffcdab;
+    opacity: 0.5;
+    border-bottom: none;
+    width: 8%;
+
+}
